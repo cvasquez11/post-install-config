@@ -8,7 +8,7 @@ This tutorial outlines the post-install configuration of the open-source help de
 
 <h2>Video Demonstration</h2>
 
-- ### [YouTube: How To Configure osTicket, post-installation](https://www.youtube.com/watch?v=ZrwgMx8PCec)
+- ### [YouTube: How To Configure osTicket, post-installation](https://www.youtube.com/watch?v=mbckqBHjLxM)
 
 <h2>Environments and Technologies Used</h2>
 
@@ -29,30 +29,74 @@ This tutorial outlines the post-install configuration of the open-source help de
 
 
 <h2>Configuration Steps</h2>
+<p>
+<h3>Step 1: Login to the Admin Panel</h3>
+
+1. URL: Navigate to your osTicket admin panel by visiting -> http://yourdomain.com/scp.</p>
+2. Login: Use the admin username and password created during installation.
+
+ ![step 1 image](https://github.com/user-attachments/assets/2906f395-88e9-41c6-a78a-5938dbc91965)
 
 <p>
-
-  ![kokokokok](https://github.com/user-attachments/assets/bed37ae3-db89-49aa-bfb7-b23d15a1210b)
-
-
-<p>
-
-1. Configure Email Settings: Set up email piping or SMTP settings under Admin Panel > Emails for ticket notifications.
-2. Customize Help Topics: Define help topics and categories in Admin Panel > Manage > Help Topics to organize incoming tickets.
-
-</p>
 <br />
-
-<p>
-
-![bybybyby](https://github.com/user-attachments/assets/b4ed8bde-18f7-49d9-8b3e-669822622107)
-
-
-<p>
-
-3. Set Up Agents and Departments: Create user accounts for support agents and assign them to departments in Admin Panel > Manage > Agents.
-4. Adjust Ticket Settings: Configure ticket settings, including status and priority options, in Admin Panel > Settings > Ticket Settings.
-</p>
 <br />
+<p>
+<h3>Step 2: Set Up Email Integration</h3>
 
+1. Go to Admin Panel -> Email.</p>
+2. Add Mailboxes: Configure the email addresses osTicket will use to send and receive tickets (example -> support@yourdomain.com).</p>
+3. Choose the method for receiving emails and configure the SMTP server for sending out notifications.</p>
 
+ ![step 2 image](https://github.com/user-attachments/assets/b6746f5d-b09a-4246-a5e3-defd1bbb45d1)
+  
+<p>
+<br />
+<br />
+<p>
+<h3>Step 3: Configure Help Topics and Departments</h3>
+
+1. Navigate to Admin Panel -> Manage -> Help Topics to define the types of issues your users can submit tickets for (example -> Billing, Technical Support, etc.).</p>
+
+![step 3 1 image](https://github.com/user-attachments/assets/2bba7706-0a29-473c-b893-adae6162e704)</p>
+
+<br />
+2. Set up Departments (example -> Sales, Support) to assign tickets based on specific areas of responsibility.</p>
+
+<img width="958" alt="step 3 2 image" src="https://github.com/user-attachments/assets/284d452c-2032-44f9-833a-f542b1cbd2d3"></p>
+
+3. Ensure the Help Topics are linked to the appropriate departments.</p>
+
+<p>
+<br />
+<br />
+<p>
+<h3>Step 4: Set Up Ticket Priorities & SLA Plans</h3>
+
+1. Admin Panel -> Manage -> Ticket Priorities: Define different priority levels (example -> Low, Medium, High).</p>
+
+<img width="960" alt="step 4 image" src="https://github.com/user-attachments/assets/a282aa80-b3af-4660-b589-8cbfb0f0a21a"></p>
+
+<br />
+2. Set up SLA Plans under Admin Panel -> Manage -> SLA Plans to define expected response and resolution times based on ticket priority and department.</p>
+
+![step 4 2 image](https://github.com/user-attachments/assets/8aad3475-f5d3-43df-939d-2f0f49465b67)
+
+<p>
+<br />
+<br />
+<p>
+<h3>Step 5: Create User Groups and Permissions</h3>
+
+1. Go to Admin Panel -> Manage -> Teams to create groups for your support agents (example -> Tier 1, Tier 2).</p>
+
+<img width="960" alt="step 5 image" src="https://github.com/user-attachments/assets/e2a0d3b5-5594-4265-ad66-f31ab178d1aa"></p>
+
+<br />
+2. Set Permissions for each group under Admin Panel -> Manage -> Roles to control what agents can access and do within the system (example -> View Tickets, Assign Tickets, Manage Settings).</p>
+
+<img width="739" alt="step 5 2 image" src="https://github.com/user-attachments/assets/a65f1442-9f55-484f-8feb-db2e6b0b97b3">
+
+<p>
+<br />
+<br />
+<p>
