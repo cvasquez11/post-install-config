@@ -33,7 +33,7 @@ This tutorial outlines the post-install configuration of the open-source help de
 <h3>Step 1: Login to the Admin Panel</h3>
 
 1. URL: Navigate to your osTicket admin panel by visiting -> http://yourdomain.com/scp.</p>
-2. Login: Use the admin username and password created during installation.
+2. Login: Use the admin username and password created during installation.</p>
 
  ![step 1 image](https://github.com/user-attachments/assets/2906f395-88e9-41c6-a78a-5938dbc91965)
 
